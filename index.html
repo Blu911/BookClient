@@ -3,12 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/JavaScript" src="./js/app.js"></script>
 </head>
 <body>
-<ul id="books">
+<nav>
+    <h1>Biblioteka</h1>
+</nav>
+<div class="main">
+    <div id="form">
+        <form>
+            <label> id
+                <input type="number" name="id" id="id" value="">
+            </label>
+            <label> isbn
+                <input type="number" name="isbn" id="isbn" value="">
+            </label>
+            <label> title
+                <input type="text" name="title" id="title" value="">
+            </label>
+            <label> author
+                <input type="text" name="author" id="author" value="">
+            </label>
+            <label> publisher
+                <input type="text" name="publisher" id="publisher" value="">
+            </label>
+            <label> type
+                <input type="text" name="type" id="type" value="">
+            </label>
+            <input type="submit" id="submit" value="zapisz">
+        </form>
+    </div>
+    <div id="books"></div>
+</div>
 
-</ul>
+<footer>
+
+</footer>
 </body>
 </html>
