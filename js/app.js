@@ -2,7 +2,7 @@ $('document').ready(function () {
 
     getAllBooks();
 
-    $('#books').on('click', 'div', function () {
+    $('#books').on('mouseover', 'div', function () {
         var id = $(this).data('id');
         getBook(id);
 
